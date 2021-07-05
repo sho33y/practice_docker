@@ -65,7 +65,7 @@
 - exit
 - docker ps -a
 - docker images
-- docker restart
+- docker restart <container>
 - docker exec -it <container> bash
 - docker commit <container> <image>
 - docker tag <source> <target>
