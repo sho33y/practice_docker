@@ -1,0 +1,5 @@
+もしdbのコンテナがどうしてもupにならない場合は，以下をdocker-compose.ymlのdbのserviceに追加してみてください．
+
+environment:
+  - 'POSTGRES_USER=postgres'
+  - 'POSTGRES_PASSWORD=postgres'
